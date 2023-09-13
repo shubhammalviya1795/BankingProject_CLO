@@ -1,0 +1,402 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.intellectdesign.igcb:igcb-clo-test >---------------
+[INFO] Building CLO Portal BDD project using Cucumber 1.0.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ igcb-clo-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\bdd\workspace\igcb-clo-test\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ igcb-clo-test ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to D:\bdd\workspace\igcb-clo-test\target\classes
+[INFO] 
+[INFO] >>> activejdbc-instrumentation:2.0:instrument (default) > process-classes @ igcb-clo-test >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ igcb-clo-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\bdd\workspace\igcb-clo-test\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ igcb-clo-test ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to D:\bdd\workspace\igcb-clo-test\target\classes
+[INFO] 
+[INFO] <<< activejdbc-instrumentation:2.0:instrument (default) < process-classes @ igcb-clo-test <<<
+[INFO] 
+[INFO] 
+[INFO] --- activejdbc-instrumentation:2.0:instrument (default) @ igcb-clo-test ---
+**************************** START INSTRUMENTATION ****************************
+Directory: D:\bdd\workspace\igcb-clo-test\target\classes
+Instrumented class: /D:/bdd/workspace/igcb-clo-test/target/classes/com/intellect/igcb/autotest/model/UserRegistration.class
+**************************** END INSTRUMENTATION ****************************
+[INFO] Instrumentation: directory D:\bdd\workspace\igcb-clo-test\target\test-classes does not exist, skipping
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ igcb-clo-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 21 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ igcb-clo-test ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 21 source files to D:\bdd\workspace\igcb-clo-test\target\test-classes
+[INFO] /D:/bdd/workspace/igcb-clo-test/src/test/java/com/intellect/igcb/autotest/utility/Util.java: D:\bdd\workspace\igcb-clo-test\src\test\java\com\intellect\igcb\autotest\utility\Util.java uses unchecked or unsafe operations.
+[INFO] /D:/bdd/workspace/igcb-clo-test/src/test/java/com/intellect/igcb/autotest/utility/Util.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ igcb-clo-test ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ igcb-clo-test ---
+[INFO] Building jar: D:\bdd\workspace\igcb-clo-test\target\igcb-clo-test-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-failsafe-plugin:3.0.0-M5:integration-test (default) @ igcb-clo-test ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.intellect.igcb.autotest.CucumberTestSuite
+20:33:06.306 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///D:/bdd/workspace/igcb-clo-test/src/test/resources/features/01%20Self%20Registration/000%20setup.feature
+20:33:06.431 [main] INFO   - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+20:33:06.431 [main] INFO   - Test Suite Started: Setup of Object Reposistory- Non functional
+20:33:06.447 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///D:/bdd/workspace/igcb-clo-test/src/test/resources/features/01%20Self%20Registration/001%20authentication.feature
+20:33:06.462 [main] INFO   - Test Suite Started: Authentication
+20:33:06.462 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///D:/bdd/workspace/igcb-clo-test/src/test/resources/features/01%20Self%20Registration/002%20registration_with_pan.feature
+20:33:06.462 [main] INFO   - Test Suite Started: Resigtration with PAN Number
+20:33:06.462 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///D:/bdd/workspace/igcb-clo-test/src/test/resources/features/01%20Self%20Registration/003%20registration_with_aadhar.feature
+20:33:06.462 [main] INFO   - Test Suite Started: Registration with Aadhar Number
+20:33:06.462 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///D:/bdd/workspace/igcb-clo-test/src/test/resources/features/01%20Self%20Registration/004%20lead_capture.feature
+20:33:06.478 [main] INFO   - Test Suite Started: Lead Capture
+20:33:06.478 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///D:/bdd/workspace/igcb-clo-test/src/test/resources/features/02%20Pre%20Approved%20Offers/001%20display_offers.feature
+20:33:06.478 [main] INFO   - Test Suite Started: Display Pre approved offers
+20:33:06.478 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///D:/bdd/workspace/igcb-clo-test/src/test/resources/features/03%20No%20Offer/001_urc_registration.feature
+20:33:06.478 [main] INFO   - Test Suite Started: URC Registration
+20:33:06.478 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///D:/bdd/workspace/igcb-clo-test/src/test/resources/features/03%20No%20Offer/002_document_acceptance%20(1).feature
+20:33:06.478 [main] INFO   - Test Suite Started: Post Sanction Document Acceptance
+20:33:06.478 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///D:/bdd/workspace/igcb-clo-test/src/test/resources/features/03%20No%20Offer/003_Loan_Details_Scenario.feature
+20:33:06.494 [main] INFO   - Test Suite Started: Loan Details
+20:33:06.494 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///D:/bdd/workspace/igcb-clo-test/src/test/resources/features/03%20No%20Offer/004_applicant_details.feature
+20:33:06.494 [main] INFO   - Test Suite Started: Applicant Flow Details
+20:33:06.494 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///D:/bdd/workspace/igcb-clo-test/src/test/resources/features/04%20Pre%20Qualified/001_pre_qualified_offer.feature
+20:33:06.494 [main] INFO   - Test Suite Started: Pre Qualified
+20:33:06.494 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///D:/bdd/workspace/igcb-clo-test/src/test/resources/features/05%20Take%20over%20and%20Colletral/001_takeover.feature
+20:33:06.509 [main] INFO   - Test Suite Started: Take Over
+20:33:06.509 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///D:/bdd/workspace/igcb-clo-test/src/test/resources/features/05%20Take%20over%20and%20Colletral/002_collateral.feature
+20:33:06.509 [main] INFO   - Test Suite Started: Collaterals
+20:33:06.509 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///D:/bdd/workspace/igcb-clo-test/src/test/resources/features/06%20Bank%20Statement/001_bank_statement.feature
+20:33:06.509 [main] INFO   - Test Suite Started: Credit Verification
+20:33:06.509 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///D:/bdd/workspace/igcb-clo-test/src/test/resources/features/01%20Self%20Registration/000%20setup.feature
+20:33:06.509 [main] INFO   - Test Suite Started: Setup of Object Reposistory- Non functional
+
+@URC14
+Scenario: Initialize Object Repository # src/test/resources/features/01 Self Registration/000 setup.feature:4
+20:33:06.665 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///D:/bdd/workspace/igcb-clo-test/src/test/resources/features/01%20Self%20Registration/000%20setup.feature
+20:33:06.728 [main] INFO   - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Initialize Object Repository(setup-of-object-reposistory--non-functional;initialize-object-repository)
+--------------------------------------------------------------------------------
+Stored Key::OBJECT_REPOSITORY Value::{Label=Locator, AutheticationPage.advertismentBanner=//*[@id='pr_id_1'], AutheticationPage.readMoreLink=/html/body/app-root/app-landing-page/section/div/div/div[1]/app-tab-details/div/p-tabview/div/div/div[1]/a, AutheticationPage.mobileNumberInput=//*[@id="mobileNumber"], AutheticationPage.getOTPButton=/html/body/app-root/app-landing-page/section/div/div/div[2]/app-mobile-number-verification/form/section/div[2]/button, AutheticationPage.termCondLink=/html/body/app-root/app-landing-page/section/div/div/div[2]/app-mobile-number-verification/form/section/div[2]/div[2]/p/a[1], AutheticationPage.privacyPolicyLink=/html/body/app-root/app-landing-page/section/div/div/div[2]/app-mobile-number-verification/form/section/div[2]/div[2]/p/a[2], AutheticationPage.mobileNumberPrefix=//*[@id="mobileNumber"]/div/div/button, AutheticationPage.TCAndPPMsg=/html/body/app-root/app-landing-page/section/div/div/div[2]/app-mobile-number-verification/form/section/div[2]/div[2]/p, AutheticationPage.moreAdv=//*[@id='advdetails'], AutheticationPage.errorMessage=//*[@id="mobileNumber"]/div/span, AutheticationPage.TermsAndcondition=/html/body/app-root/app-modal-component/section[1]/div/div[2]/div/div[3]/h2, AutheticationPage.NextButton=/html/body/app-root/app-modal-component/section[2]/div/div/div/button, EnterOTPPage.SentToNumber=/html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/div[1]/span, EnterOTPPage.ChangeNumberLink=/html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/div[1]/a, EnterOTPPage.otp0=/html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/div[2]/ng-otp-input/div/input[1], EnterOTPPage.otp1=/html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/div[2]/ng-otp-input/div/input[2], EnterOTPPage.otp2=/html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/div[2]/ng-otp-input/div/input[3], EnterOTPPage.otp3=/html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/div[2]/ng-otp-input/div/input[4], EnterOTPPage.otp4=/html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/div[2]/ng-otp-input/div/input[5], EnterOTPPage.otp5=/html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/div[2]/ng-otp-input/div/input[6], EnterOTPPage.ResendOTPMsg=/html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/div[3]/div, EnterOTPPage.ResntOTPLink=/html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/div[3]/a, EnterOTPPage.EnterOTPLabel=/html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/h1, EnterOTPPage.VerifyOTPBtn=/html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/button, PanRegistration.BusinessPanInput=//*/input[@id="taxId"], PanRegistration.Next=/html/body/app-root/app-pan-verification/section/div/div[2]/div/div[6]/button[2], PanRegistration.NameLbl=//*[@id="name"], PanRegistration.Constitution=//*[@id="constitution"]/div/span, PanRegistration.ConstitutionSelect=//*[@id="constitution"]/div/div[1]/input, PanRegistration.Pincode=//*[@id="FD_PIN"], PanRegistration.PromoCode=//*[@id="FD_PROMO"], PanRegistration.CheckPANLink=/html/body/app-root/app-pan-verification/section/div/div[2]/div/div[3]/div[1]/a, PanRegistration.Header=/html/body/app-root/app-pan-verification/section/div/div[2]/div/div[1]/h1, Sprint2Screen.Title=//*[@id="bt"]/h1, PanRegistration.ErrorLbl=//*[@id="taxId"]/div/span, PanRegistration.NotyouLink=/html/body/app-root/app-pan-verification/section/div/div[2]/div/div[3]/div[1]/a, PanRegistration.PincodeErrLabel=//*[@id="pincode"]/div/span, PreApprovedOffer.CongratsText=/html/body/app-root/app-offers-recieved/section/div/div[2]/div/div[1]/div/h1, PreApprovedOffer.AcceptAndContinueBtn=//*[@id="pr_id_4"]/div/div/div/div/div/div/div/div/div/p-card/div/div/div[2]/div[2]/button, PreApprovedOffer.OfferTitle=//*[@id="pr_id_4"]/div/div/div/div/div/div/div/div/div/p-card/div/div/div[1], PreApprovedOffer.HigherLoanLink=//body/app-root[1]/app-offers-recieved[1]/section[1]/div[1]/div[2]/div[1]/div[2]/p-carousel[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/p-card[1]/div[1]/div[1]/div[2]/div[3]/span[1]/a[1], AccountSelection.Header=/html/body/app-root/app-entity-selection/section/div/div[2]/div[1]/div/span/h6, AccountSelection.FirstAccount=/html/body/app-root/app-entity-selection/section/div/div[2]/div[2]/app-user-selection/div/div[1]/div, AccountSelection.SecondAccount=/html/body/app-root/app-entity-selection/section/div/div[2]/div[2]/app-user-selection/div/div[2]/div, AccountSelection.FirstAccountName=/html/body/app-root/app-entity-selection/section/div/div[2]/div[2]/app-user-selection/div/div[1]/div/div[1]/h2, AccountSelection.SecondAccountName=/html/body/app-root/app-entity-selection/section/div/div[2]/div[2]/app-user-selection/div/div[2]/div/div[1]/h2, AccountSelection.NextBtn=/html/body/app-root/app-entity-selection/section/div/div[2]/div[3]/button[2], CustomerVerification.Header=/html/body/app-root/app-entity-selection/section/div/div[2]/div[1]/div/span/h6, CustomerVerification.CIFLbl=/html/body/app-root/app-entity-selection/section/div/div[2]/div[2]/app-verification-entity/div/div[1]/div/div[2]/h3, CustomerVerification.AadharLbl=/html/body/app-root/app-entity-selection/section/div/div[2]/div[2]/app-verification-entity/div/div[2]/div/div[2]/h3, CustomerVerification.AadharSelectBox=/html/body/app-root/app-entity-selection/section/div/div[2]/div[2]/app-verification-entity/div/div[2]/div, CustomerVerification.CIFSelectBox=/html/body/app-root/app-entity-selection/section/div/div[2]/div[2]/app-verification-entity/div/div[1]/div, CustomerVerification.InputLabel=/html/body/app-root/app-entity-selection/section/div/div[2]/div[2]/app-verification-entity/div/div[4]/h3, CustomerVerification.VerificationInput=//*[@id="FD_USER_DETAILS"], CustomerVerification.Next=/html/body/app-root/app-entity-selection/section/div/div[2]/div[3]/button[2], CustomerVerification.ErrorMessage=/html/body/app-root/app-entity-selection/section/div/div[2]/div[2]/app-verification-entity/div/div[4]/div/app-text-box/div/span, MaxAttemptPage.Header=/html/body/app-root/app-attempts-exceeded/section/div/div[2]/div/div[1]/div/h1, MaxAttemptPage.No=/html/body/app-root/app-attempts-exceeded/section/div/div[2]/div/div[2]/div/button[1], MaxAttemptPage.Yes=/html/body/app-root/app-attempts-exceeded/section/div/div[2]/div/div[2]/div/button[2], MaxAttemptPage.ContinueMsg=/html/body/app-root/app-attempts-exceeded/section/div/div[2]/div/div[1]/div/h6, EntityScreen.addressType=//*[@id="addressType"]/div/span, EntityScreen.addressLine1=//input[@id='addressLine1'], EntityScreen.addressFetchCommunicationAddress=//body/app-root[1]/app-entity-details[1]/div[1]/app-address-list[1]/section[1]/div[1]/div[2]/div[1]/div[3]/div[2]/div[1]/div[1], EntityScreen.addressTypeLabel=//h2[@id='addressTypeLabel'], EntityScreen.addressLabel=//*[@id="addressLabel"], EntityScreen.pincodeLabel=//*[@id="pincodeLabel"], EntityScreen.pincode=//input[@id='pincode'], EntityScreen.name=//*[@id="name"], EntityScreen.email=//*[@id="email"], EntityScreen.gender=//*[@id="gender"], EntityScreen.dob=//*[@id="dob"], EntityScreen.companyName=//*[@id="companyName"], EntityScreen.date_Of_Incorporation=//body/app-root[1]/app-entity-details[1]/section[1]/div[1]/div[2]/div[1]/div[2]/div[4]/p-calendar[1], EntityScreen.industry=//*[@id="industry"]/div/span, EntityScreen.subIndustry=//body/app-root[1]/app-entity-details[1]/section[1]/div[1]/div[2]/div[1]/div[2]/div[5]/p-dropdown[1]/div[1]/span[1], EntityScreen.entityDetailsTitle=//h2[@id='entityDetailsTitle'], EntityScreen.businessNameLabel=//*[@id="businessNameLabel"], EntityScreen.businessName=//input[@id='businessName'], EntityScreen.emailLabel=//*[@id="emailLabel"], EntityScreen.industryLabel=//*[@id="industryLabel"], EntityScreen.subIndustryLabel=//*[@id="subIndustryLabel"], EntityScreen.dateOfIncorporationLabel=//input[@id='icon'], EntityScreen.entityDetailsAddCommunicationAddress=//button[@id='entityDetailsAddCommunicationAddress'], EntityScreen.entityDetailsBack=//*[@id="entityDetailsBack"], EntityScreen.entityDetailsNext=//button[@id='entityDetailsNext'], EntityScreen.entityDetailsAddNew=//button[@id='entityDetailsAddNew'], EntityScreen.entityDetailsChange=//a[@id='entityDetailsChange'], EntityScreen.addressDetailsAdd=//button[@id='addressDetailsAdd'], EntityScreen.addressDetailsDelete=//button[@id='addressDetailsDelete'], EntityScreen.addressDetailsUpdate=//button[@id='addressDetailsUpdate'], EntityScreen.addressListClose=//*[@id="addressListClose"], EntityScreen.addressDetailsClose=//*[@id="addressDetailsClose"], EntityScreen.selectedAddress=//body/app-root[1]/app-entity-details[1]/section[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[2]/div[1], EntityScreen.addressDetailsEdit=//, EntityScreen.addedCommunicationAddressEditIcon=//body/app-root[1]/app-entity-details[1]/section[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/img[1], EntityScreen.addedCommunicationAddress=//body/app-root[1]/app-entity-details[1]/section[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[2]/div[1], EntityScreen.updatedCommunicationAddress=//body/app-root[1]/app-entity-details[1]/section[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[2]/div[1], LoanDetails.sectorLabel=//*[@id="sectorLabel"], LoanDetails.sector=//span[contains(text(),'Manufacturing')], LoanDetails.facilityLabel=//*[@id="facilityLabel"], LoanDetails.facility=//*[@id="facility"], LoanDetails.facilityCode=//*[@id="facilityCode"], LoanDetails.loanAmount=//input[@id='loanAmount'], LoanDetails.loanPurpose=//input[@id='loanPurpose'], LoanDetails.takeover=//*[@id="takeover"], LoanDetails.loanDetailsTitle=//*[@id="loanDetailsTitle"], LoanDetails.circularPercentage=//*[@id="circularPercentage"], LoanDetails.loanDetailsAddProduct=//*[@id="loanDetailsAddProduct"], LoanDetails.loanDetailsBack=//*[@id="loanDetailsBack"], LoanDetails.loanDetailsNext=//*[@id="loanDetailsNext"], LoanDetails.productDetailsAdd=//button[@id='productDetailsAdd'], LoanDetails.productDetailsUpdate=//*[@id="productDetailsUpdate"], LoanDetails.productDetailsDelete=//*[@id="productDetailsDelete"], LoanDetails.loanDetailsEditProduct=//*[@id="loanDetailsEditProduct"], LoanDetails.loanDetailsProductAddedSuccessfully=//*[@id="loanDetailsProductAddedSuccessfully"], LoanDetails.productDetailsClose=//*[@id="productDetailsClose"], LoanDetails.typeLabel=//*[@id="     "], LoanDetails.purposeLabel=//*[@id="     "], LoanDetails.loanAmountLabel=//*[@id="     "], LoanDetails.exitingProductDetails=//*[@id="     "], URC.Title=/html/body/app-root/app-offers-recieved/div/app-urc-number/section[1]/div/div[2]/div/div/div[2]/h1, URC.NumberLabel=/html/body/app-root/app-offers-recieved/div/app-urc-number/section[1]/div/div[2]/div/div/div[3]/h2, URC.udyamNumber=//input[@id='udyamNumber'], URC.udyamSubmit=//*[@id="udyamSubmit"], URC.donthaveurcLink=//*[@id="udyamGuide"], URC.udyamCreate=//*[@id="udyamCreate"], URC.udyamPopup=//*[@id="udyamPopup"], URC.udyamChangeUrc=//*[@id="udyamChangeUrc"], URC.udyamContinueWithoutOffer=//*[@id="udyamContinueWithoutOffer"], URC.udyamMessage=//h3[@id='udyamMessage'], URC.udyamNotInterested=//*[@id="udyamNotInterested"], URC.udyamContinue=//*[@id="udyamContinue"], URC.udyamChange=//*[@id="udyamChange"], URC.udyamClose=//*[@id="udyamClose"], URC.notRegisteredTitle=//*[@id="     "], URC.udyamNumberError=//*[@id="     "], URC.seemsLikeNameMismatch=//h1[contains(text(),'Seems like there is a name mismatch!')], URC.errorMessage=//*[@id="     "], URC.skipUrcLink=//a[contains(text(),'Skip this step')], DocumentAcceptance.docAcceptenceBack=//*[@id="docAcceptenceBack"], DocumentAcceptance.docAcceptenceNext=//*[@id="docAcceptenceNext"], DocumentAcceptance.docAcceptenceTitle=//*[@id="docAcceptenceTitle"], DocumentAcceptance.docAcceptenceNetbanking=//*[@id="docAcceptenceNetbanking"], DocumentAcceptance.docAcceptenceEsign=//*[@id="docAcceptenceEsign"], DocumentAcceptance.docAcceptenceSubmittedTitle=//*[@id="docAcceptenceSubmittedTitle"], DocumentAcceptance.docAcceptenceClose=//*[@id="docAcceptenceClose"], ApplicantDetails.next=//*[@id="     "], Applicant.Partner.entityName=//*[@id="     "], Applicant.Partner.aPAN=//*[@id="     "], Applicant.Partner.aDOB=//*[@id="     "], Applicant.Partner.aAddress=//*[@id="     "], Applicant.Partner.edit=//*[@id="     "], Applicant.Partner.next=//*[@id="     "], Applicant.Director.entityName=//*[@id="     "], Applicant.Director.aPAN=//*[@id="     "], Applicant.Director.aDOB=//*[@id="     "], Applicant.Director.aAddress=//*[@id="     "], Applicant.Director.editIcon=//*[@id="     "], Applicant.Director.Co-applicant=//*[@id="     "], Applicant.addCo-applicant=//button[contains(text(),'+ Add co-applicant')], Applicant.Co-applicant.pan=//input[@id='taxId'], Applicant.Co-applicant.firstName=//input[@id='firstName'], Applicant.Co-applicant.middleName=//input[@id='middleName'], Applicant.Co-applicant.lastName=//input[@id='lastName'], Applicant.Co-applicant.dob=//body/app-root[1]/app-applicant-details[1]/div[1]/app-edit-applicant[1]/section[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[6]/p-calendar[1]/span[1]/input[1], Applicant.Co-applicant.address=//input[@id='addressLine1'], Applicant.Co-applicant.pincode=//input[@id='pincode'], Applicant.Co-applicant.customerId=//input[@id='customerId'], Applicant.Co-applicant.addbutton=//body/app-root[1]/app-applicant-details[1]/div[1]/app-edit-applicant[1]/section[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[10]/button[1], Applicant.applicantDetailsTitle=//h2[contains(text(),'Applicant Details')], Applicant.Co-applicant.editIcon=//body/app-root[1]/app-applicant-details[1]/section[1]/div[1]/div[2]/app-applicant-type[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/img[1], Applicant.Co-applicant.companyPan=//*[@id="     "], Applicant.Co-applicant.businessName=//input[@id='businessName'], Applicant.Co-applicant.email=//*[@id="     "], Applicant.Co-applicant.industry=//*[@id="     "], Applicant.Co-applicant.sub_Industry=//*[@id="     "], Applicant.Co-applicant.Date_Of_Incorporation=//body/app-root[1]/app-applicant-details[1]/div[1]/app-edit-applicant[1]/section[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[8]/p-calendar[1]/span[1]/input[1], Applicant.Co-applicant.pin_Code=//*[@id="     "], Applicant.Co-applicant.update=//button[contains(text(),'Update')], Applicant.Co-applicant.updatedDetails=//body/app-root[1]/app-applicant-details[1]/section[1]/div[1]/div[2]/app-applicant-type[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]}
+  Given Following Elements Exists      # com.intellect.igcb.autotest.stepdefinition.GenericStep.follwing_Elements_Exists(java.util.Map<java.lang.String, java.lang.String>)
+    | Label                                             | Locator                                                                                                                                                                                                                 |
+    | AutheticationPage.advertismentBanner              | //*[@id='pr_id_1']                                                                                                                                                                                                      |
+    | AutheticationPage.readMoreLink                    | /html/body/app-root/app-landing-page/section/div/div/div[1]/app-tab-details/div/p-tabview/div/div/div[1]/a                                                                                                              |
+    | AutheticationPage.mobileNumberInput               | //*[@id="mobileNumber"]                                                                                                                                                                                                 |
+    | AutheticationPage.getOTPButton                    | /html/body/app-root/app-landing-page/section/div/div/div[2]/app-mobile-number-verification/form/section/div[2]/button                                                                                                   |
+    | AutheticationPage.termCondLink                    | /html/body/app-root/app-landing-page/section/div/div/div[2]/app-mobile-number-verification/form/section/div[2]/div[2]/p/a[1]                                                                                            |
+    | AutheticationPage.privacyPolicyLink               | /html/body/app-root/app-landing-page/section/div/div/div[2]/app-mobile-number-verification/form/section/div[2]/div[2]/p/a[2]                                                                                            |
+    | AutheticationPage.mobileNumberPrefix              | //*[@id="mobileNumber"]/div/div/button                                                                                                                                                                                  |
+    | AutheticationPage.TCAndPPMsg                      | /html/body/app-root/app-landing-page/section/div/div/div[2]/app-mobile-number-verification/form/section/div[2]/div[2]/p                                                                                                 |
+    | AutheticationPage.moreAdv                         | //*[@id='advdetails']                                                                                                                                                                                                   |
+    | AutheticationPage.errorMessage                    | //*[@id="mobileNumber"]/div/span                                                                                                                                                                                        |
+    | AutheticationPage.TermsAndcondition               | /html/body/app-root/app-modal-component/section[1]/div/div[2]/div/div[3]/h2                                                                                                                                             |
+    | AutheticationPage.NextButton                      | /html/body/app-root/app-modal-component/section[2]/div/div/div/button                                                                                                                                                   |
+    | EnterOTPPage.SentToNumber                         | /html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/div[1]/span                                                                                                                            |
+    | EnterOTPPage.ChangeNumberLink                     | /html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/div[1]/a                                                                                                                               |
+    | EnterOTPPage.otp0                                 | /html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/div[2]/ng-otp-input/div/input[1]                                                                                                       |
+    | EnterOTPPage.otp1                                 | /html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/div[2]/ng-otp-input/div/input[2]                                                                                                       |
+    | EnterOTPPage.otp2                                 | /html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/div[2]/ng-otp-input/div/input[3]                                                                                                       |
+    | EnterOTPPage.otp3                                 | /html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/div[2]/ng-otp-input/div/input[4]                                                                                                       |
+    | EnterOTPPage.otp4                                 | /html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/div[2]/ng-otp-input/div/input[5]                                                                                                       |
+    | EnterOTPPage.otp5                                 | /html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/div[2]/ng-otp-input/div/input[6]                                                                                                       |
+    | EnterOTPPage.ResendOTPMsg                         | /html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/div[3]/div                                                                                                                             |
+    | EnterOTPPage.ResntOTPLink                         | /html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/div[3]/a                                                                                                                               |
+    | EnterOTPPage.EnterOTPLabel                        | /html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/h1                                                                                                                                     |
+    | EnterOTPPage.VerifyOTPBtn                         | /html/body/app-root/app-landing-page/section/div/div/div[2]/app-user-otp/section/button                                                                                                                                 |
+    | PanRegistration.BusinessPanInput                  | //*/input[@id="taxId"]                                                                                                                                                                                                  |
+    | PanRegistration.Next                              | /html/body/app-root/app-pan-verification/section/div/div[2]/div/div[6]/button[2]                                                                                                                                        |
+    | PanRegistration.NameLbl                           | //*[@id="name"]                                                                                                                                                                                                         |
+    | PanRegistration.Constitution                      | //*[@id="constitution"]/div/span                                                                                                                                                                                        |
+    | PanRegistration.ConstitutionSelect                | //*[@id="constitution"]/div/div[1]/input                                                                                                                                                                                |
+    | PanRegistration.Pincode                           | //*[@id="FD_PIN"]                                                                                                                                                                                                       |
+    | PanRegistration.PromoCode                         | //*[@id="FD_PROMO"]                                                                                                                                                                                                     |
+    | PanRegistration.CheckPANLink                      | /html/body/app-root/app-pan-verification/section/div/div[2]/div/div[3]/div[1]/a                                                                                                                                         |
+    | PanRegistration.Header                            | /html/body/app-root/app-pan-verification/section/div/div[2]/div/div[1]/h1                                                                                                                                               |
+    | Sprint2Screen.Title                               | //*[@id="bt"]/h1                                                                                                                                                                                                        |
+    | PanRegistration.ErrorLbl                          | //*[@id="taxId"]/div/span                                                                                                                                                                                               |
+    | PanRegistration.NotyouLink                        | /html/body/app-root/app-pan-verification/section/div/div[2]/div/div[3]/div[1]/a                                                                                                                                         |
+    | PanRegistration.PincodeErrLabel                   | //*[@id="pincode"]/div/span                                                                                                                                                                                             |
+    | PreApprovedOffer.CongratsText                     | /html/body/app-root/app-offers-recieved/section/div/div[2]/div/div[1]/div/h1                                                                                                                                            |
+    | PreApprovedOffer.AcceptAndContinueBtn             | //*[@id="pr_id_4"]/div/div/div/div/div/div/div/div/div/p-card/div/div/div[2]/div[2]/button                                                                                                                              |
+    | PreApprovedOffer.OfferTitle                       | //*[@id="pr_id_4"]/div/div/div/div/div/div/div/div/div/p-card/div/div/div[1]                                                                                                                                            |
+    | PreApprovedOffer.HigherLoanLink                   | //body/app-root[1]/app-offers-recieved[1]/section[1]/div[1]/div[2]/div[1]/div[2]/p-carousel[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/p-card[1]/div[1]/div[1]/div[2]/div[3]/span[1]/a[1] |
+    | AccountSelection.Header                           | /html/body/app-root/app-entity-selection/section/div/div[2]/div[1]/div/span/h6                                                                                                                                          |
+    | AccountSelection.FirstAccount                     | /html/body/app-root/app-entity-selection/section/div/div[2]/div[2]/app-user-selection/div/div[1]/div                                                                                                                    |
+    | AccountSelection.SecondAccount                    | /html/body/app-root/app-entity-selection/section/div/div[2]/div[2]/app-user-selection/div/div[2]/div                                                                                                                    |
+    | AccountSelection.FirstAccountName                 | /html/body/app-root/app-entity-selection/section/div/div[2]/div[2]/app-user-selection/div/div[1]/div/div[1]/h2                                                                                                          |
+    | AccountSelection.SecondAccountName                | /html/body/app-root/app-entity-selection/section/div/div[2]/div[2]/app-user-selection/div/div[2]/div/div[1]/h2                                                                                                          |
+    | AccountSelection.NextBtn                          | /html/body/app-root/app-entity-selection/section/div/div[2]/div[3]/button[2]                                                                                                                                            |
+    | CustomerVerification.Header                       | /html/body/app-root/app-entity-selection/section/div/div[2]/div[1]/div/span/h6                                                                                                                                          |
+    | CustomerVerification.CIFLbl                       | /html/body/app-root/app-entity-selection/section/div/div[2]/div[2]/app-verification-entity/div/div[1]/div/div[2]/h3                                                                                                     |
+    | CustomerVerification.AadharLbl                    | /html/body/app-root/app-entity-selection/section/div/div[2]/div[2]/app-verification-entity/div/div[2]/div/div[2]/h3                                                                                                     |
+    | CustomerVerification.AadharSelectBox              | /html/body/app-root/app-entity-selection/section/div/div[2]/div[2]/app-verification-entity/div/div[2]/div                                                                                                               |
+    | CustomerVerification.CIFSelectBox                 | /html/body/app-root/app-entity-selection/section/div/div[2]/div[2]/app-verification-entity/div/div[1]/div                                                                                                               |
+    | CustomerVerification.InputLabel                   | /html/body/app-root/app-entity-selection/section/div/div[2]/div[2]/app-verification-entity/div/div[4]/h3                                                                                                                |
+    | CustomerVerification.VerificationInput            | //*[@id="FD_USER_DETAILS"]                                                                                                                                                                                              |
+    | CustomerVerification.Next                         | /html/body/app-root/app-entity-selection/section/div/div[2]/div[3]/button[2]                                                                                                                                            |
+    | CustomerVerification.ErrorMessage                 | /html/body/app-root/app-entity-selection/section/div/div[2]/div[2]/app-verification-entity/div/div[4]/div/app-text-box/div/span                                                                                         |
+    | MaxAttemptPage.Header                             | /html/body/app-root/app-attempts-exceeded/section/div/div[2]/div/div[1]/div/h1                                                                                                                                          |
+    | MaxAttemptPage.No                                 | /html/body/app-root/app-attempts-exceeded/section/div/div[2]/div/div[2]/div/button[1]                                                                                                                                   |
+    | MaxAttemptPage.Yes                                | /html/body/app-root/app-attempts-exceeded/section/div/div[2]/div/div[2]/div/button[2]                                                                                                                                   |
+    | MaxAttemptPage.ContinueMsg                        | /html/body/app-root/app-attempts-exceeded/section/div/div[2]/div/div[1]/div/h6                                                                                                                                          |
+    | EntityScreen.addressType                          | //*[@id="addressType"]/div/span                                                                                                                                                                                         |
+    | EntityScreen.addressLine1                         | //input[@id='addressLine1']                                                                                                                                                                                             |
+    | EntityScreen.addressFetchCommunicationAddress     | //body/app-root[1]/app-entity-details[1]/div[1]/app-address-list[1]/section[1]/div[1]/div[2]/div[1]/div[3]/div[2]/div[1]/div[1]                                                                                         |
+    | EntityScreen.addressTypeLabel                     | //h2[@id='addressTypeLabel']                                                                                                                                                                                            |
+    | EntityScreen.addressLabel                         | //*[@id="addressLabel"]                                                                                                                                                                                                 |
+    | EntityScreen.pincodeLabel                         | //*[@id="pincodeLabel"]                                                                                                                                                                                                 |
+    | EntityScreen.pincode                              | //input[@id='pincode']                                                                                                                                                                                                  |
+    | EntityScreen.name                                 | //*[@id="name"]                                                                                                                                                                                                         |
+    | EntityScreen.email                                | //*[@id="email"]                                                                                                                                                                                                        |
+    | EntityScreen.gender                               | //*[@id="gender"]                                                                                                                                                                                                       |
+    | EntityScreen.dob                                  | //*[@id="dob"]                                                                                                                                                                                                          |
+    | EntityScreen.companyName                          | //*[@id="companyName"]                                                                                                                                                                                                  |
+    | EntityScreen.date_Of_Incorporation                | //body/app-root[1]/app-entity-details[1]/section[1]/div[1]/div[2]/div[1]/div[2]/div[4]/p-calendar[1]                                                                                                                    |
+    | EntityScreen.industry                             | //*[@id="industry"]/div/span                                                                                                                                                                                            |
+    | EntityScreen.subIndustry                          | //body/app-root[1]/app-entity-details[1]/section[1]/div[1]/div[2]/div[1]/div[2]/div[5]/p-dropdown[1]/div[1]/span[1]                                                                                                     |
+    | EntityScreen.entityDetailsTitle                   | //h2[@id='entityDetailsTitle']                                                                                                                                                                                          |
+    | EntityScreen.businessNameLabel                    | //*[@id="businessNameLabel"]                                                                                                                                                                                            |
+    | EntityScreen.businessName                         | //input[@id='businessName']                                                                                                                                                                                             |
+    | EntityScreen.emailLabel                           | //*[@id="emailLabel"]                                                                                                                                                                                                   |
+    | EntityScreen.industryLabel                        | //*[@id="industryLabel"]                                                                                                                                                                                                |
+    | EntityScreen.subIndustryLabel                     | //*[@id="subIndustryLabel"]                                                                                                                                                                                             |
+    | EntityScreen.dateOfIncorporationLabel             | //input[@id='icon']                                                                                                                                                                                                     |
+    | EntityScreen.entityDetailsAddCommunicationAddress | //button[@id='entityDetailsAddCommunicationAddress']                                                                                                                                                                    |
+    | EntityScreen.entityDetailsBack                    | //*[@id="entityDetailsBack"]                                                                                                                                                                                            |
+    | EntityScreen.entityDetailsNext                    | //button[@id='entityDetailsNext']                                                                                                                                                                                       |
+    | EntityScreen.entityDetailsAddNew                  | //button[@id='entityDetailsAddNew']                                                                                                                                                                                     |
+    | EntityScreen.entityDetailsChange                  | //a[@id='entityDetailsChange']                                                                                                                                                                                          |
+    | EntityScreen.addressDetailsAdd                    | //button[@id='addressDetailsAdd']                                                                                                                                                                                       |
+    | EntityScreen.addressDetailsDelete                 | //button[@id='addressDetailsDelete']                                                                                                                                                                                    |
+    | EntityScreen.addressDetailsUpdate                 | //button[@id='addressDetailsUpdate']                                                                                                                                                                                    |
+    | EntityScreen.addressListClose                     | //*[@id="addressListClose"]                                                                                                                                                                                             |
+    | EntityScreen.addressDetailsClose                  | //*[@id="addressDetailsClose"]                                                                                                                                                                                          |
+    | EntityScreen.selectedAddress                      | //body/app-root[1]/app-entity-details[1]/section[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[2]/div[1]                                                                                                                    |
+    | EntityScreen.addressDetailsEdit                   | //                                                                                                                                                                                                                      |
+    | EntityScreen.addedCommunicationAddressEditIcon    | //body/app-root[1]/app-entity-details[1]/section[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/img[1]                                                                                                      |
+    | EntityScreen.addedCommunicationAddress            | //body/app-root[1]/app-entity-details[1]/section[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[2]/div[1]                                                                                                                    |
+    | EntityScreen.updatedCommunicationAddress          | //body/app-root[1]/app-entity-details[1]/section[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[2]/div[1]                                                                                                                    |
+    | LoanDetails.sectorLabel                           | //*[@id="sectorLabel"]                                                                                                                                                                                                  |
+    | LoanDetails.sector                                | //span[contains(text(),'Manufacturing')]                                                                                                                                                                                |
+    | LoanDetails.facilityLabel                         | //*[@id="facilityLabel"]                                                                                                                                                                                                |
+    | LoanDetails.facility                              | //*[@id="facility"]                                                                                                                                                                                                     |
+    | LoanDetails.facilityCode                          | //*[@id="facilityCode"]                                                                                                                                                                                                 |
+    | LoanDetails.loanAmount                            | //input[@id='loanAmount']                                                                                                                                                                                               |
+    | LoanDetails.loanPurpose                           | //input[@id='loanPurpose']                                                                                                                                                                                              |
+    | LoanDetails.takeover                              | //*[@id="takeover"]                                                                                                                                                                                                     |
+    | LoanDetails.loanDetailsTitle                      | //*[@id="loanDetailsTitle"]                                                                                                                                                                                             |
+    | LoanDetails.circularPercentage                    | //*[@id="circularPercentage"]                                                                                                                                                                                           |
+    | LoanDetails.loanDetailsAddProduct                 | //*[@id="loanDetailsAddProduct"]                                                                                                                                                                                        |
+    | LoanDetails.loanDetailsBack                       | //*[@id="loanDetailsBack"]                                                                                                                                                                                              |
+    | LoanDetails.loanDetailsNext                       | //*[@id="loanDetailsNext"]                                                                                                                                                                                              |
+    | LoanDetails.productDetailsAdd                     | //button[@id='productDetailsAdd']                                                                                                                                                                                       |
+    | LoanDetails.productDetailsUpdate                  | //*[@id="productDetailsUpdate"]                                                                                                                                                                                         |
+    | LoanDetails.productDetailsDelete                  | //*[@id="productDetailsDelete"]                                                                                                                                                                                         |
+    | LoanDetails.loanDetailsEditProduct                | //*[@id="loanDetailsEditProduct"]                                                                                                                                                                                       |
+    | LoanDetails.loanDetailsProductAddedSuccessfully   | //*[@id="loanDetailsProductAddedSuccessfully"]                                                                                                                                                                          |
+    | LoanDetails.productDetailsClose                   | //*[@id="productDetailsClose"]                                                                                                                                                                                          |
+    | LoanDetails.typeLabel                             | //*[@id="     "]                                                                                                                                                                                                        |
+    | LoanDetails.purposeLabel                          | //*[@id="     "]                                                                                                                                                                                                        |
+    | LoanDetails.loanAmountLabel                       | //*[@id="     "]                                                                                                                                                                                                        |
+    | LoanDetails.exitingProductDetails                 | //*[@id="     "]                                                                                                                                                                                                        |
+    | URC.Title                                         | /html/body/app-root/app-offers-recieved/div/app-urc-number/section[1]/div/div[2]/div/div/div[2]/h1                                                                                                                      |
+    | URC.NumberLabel                                   | /html/body/app-root/app-offers-recieved/div/app-urc-number/section[1]/div/div[2]/div/div/div[3]/h2                                                                                                                      |
+    | URC.udyamNumber                                   | //input[@id='udyamNumber']                                                                                                                                                                                              |
+    | URC.udyamSubmit                                   | //*[@id="udyamSubmit"]                                                                                                                                                                                                  |
+    | URC.donthaveurcLink                               | //*[@id="udyamGuide"]                                                                                                                                                                                                   |
+    | URC.udyamCreate                                   | //*[@id="udyamCreate"]                                                                                                                                                                                                  |
+    | URC.udyamPopup                                    | //*[@id="udyamPopup"]                                                                                                                                                                                                   |
+    | URC.udyamChangeUrc                                | //*[@id="udyamChangeUrc"]                                                                                                                                                                                               |
+    | URC.udyamContinueWithoutOffer                     | //*[@id="udyamContinueWithoutOffer"]                                                                                                                                                                                    |
+    | URC.udyamMessage                                  | //h3[@id='udyamMessage']                                                                                                                                                                                                |
+    | URC.udyamNotInterested                            | //*[@id="udyamNotInterested"]                                                                                                                                                                                           |
+    | URC.udyamContinue                                 | //*[@id="udyamContinue"]                                                                                                                                                                                                |
+    | URC.udyamChange                                   | //*[@id="udyamChange"]                                                                                                                                                                                                  |
+    | URC.udyamClose                                    | //*[@id="udyamClose"]                                                                                                                                                                                                   |
+    | URC.notRegisteredTitle                            | //*[@id="     "]                                                                                                                                                                                                        |
+    | URC.udyamNumberError                              | //*[@id="     "]                                                                                                                                                                                                        |
+    | URC.seemsLikeNameMismatch                         | //h1[contains(text(),'Seems like there is a name mismatch!')]                                                                                                                                                           |
+    | URC.errorMessage                                  | //*[@id="     "]                                                                                                                                                                                                        |
+    | URC.skipUrcLink                                   | //a[contains(text(),'Skip this step')]                                                                                                                                                                                  |
+    | DocumentAcceptance.docAcceptenceBack              | //*[@id="docAcceptenceBack"]                                                                                                                                                                                            |
+    | DocumentAcceptance.docAcceptenceNext              | //*[@id="docAcceptenceNext"]                                                                                                                                                                                            |
+    | DocumentAcceptance.docAcceptenceTitle             | //*[@id="docAcceptenceTitle"]                                                                                                                                                                                           |
+    | DocumentAcceptance.docAcceptenceNetbanking        | //*[@id="docAcceptenceNetbanking"]                                                                                                                                                                                      |
+    | DocumentAcceptance.docAcceptenceEsign             | //*[@id="docAcceptenceEsign"]                                                                                                                                                                                           |
+    | DocumentAcceptance.docAcceptenceSubmittedTitle    | //*[@id="docAcceptenceSubmittedTitle"]                                                                                                                                                                                  |
+    | DocumentAcceptance.docAcceptenceClose             | //*[@id="docAcceptenceClose"]                                                                                                                                                                                           |
+    | ApplicantDetails.next                             | //*[@id="     "]                                                                                                                                                                                                        |
+    | Applicant.Partner.entityName                      | //*[@id="     "]                                                                                                                                                                                                        |
+    | Applicant.Partner.aPAN                            | //*[@id="     "]                                                                                                                                                                                                        |
+    | Applicant.Partner.aDOB                            | //*[@id="     "]                                                                                                                                                                                                        |
+    | Applicant.Partner.aAddress                        | //*[@id="     "]                                                                                                                                                                                                        |
+    | Applicant.Partner.edit                            | //*[@id="     "]                                                                                                                                                                                                        |
+    | Applicant.Partner.next                            | //*[@id="     "]                                                                                                                                                                                                        |
+    | Applicant.Director.entityName                     | //*[@id="     "]                                                                                                                                                                                                        |
+    | Applicant.Director.aPAN                           | //*[@id="     "]                                                                                                                                                                                                        |
+    | Applicant.Director.aDOB                           | //*[@id="     "]                                                                                                                                                                                                        |
+    | Applicant.Director.aAddress                       | //*[@id="     "]                                                                                                                                                                                                        |
+    | Applicant.Director.editIcon                       | //*[@id="     "]                                                                                                                                                                                                        |
+    | Applicant.Director.Co-applicant                   | //*[@id="     "]                                                                                                                                                                                                        |
+    | Applicant.addCo-applicant                         | //button[contains(text(),'+ Add co-applicant')]                                                                                                                                                                         |
+    | Applicant.Co-applicant.pan                        | //input[@id='taxId']                                                                                                                                                                                                    |
+    | Applicant.Co-applicant.firstName                  | //input[@id='firstName']                                                                                                                                                                                                |
+    | Applicant.Co-applicant.middleName                 | //input[@id='middleName']                                                                                                                                                                                               |
+    | Applicant.Co-applicant.lastName                   | //input[@id='lastName']                                                                                                                                                                                                 |
+    | Applicant.Co-applicant.dob                        | //body/app-root[1]/app-applicant-details[1]/div[1]/app-edit-applicant[1]/section[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[6]/p-calendar[1]/span[1]/input[1]                                                            |
+    | Applicant.Co-applicant.address                    | //input[@id='addressLine1']                                                                                                                                                                                             |
+    | Applicant.Co-applicant.pincode                    | //input[@id='pincode']                                                                                                                                                                                                  |
+    | Applicant.Co-applicant.customerId                 | //input[@id='customerId']                                                                                                                                                                                               |
+    | Applicant.Co-applicant.addbutton                  | //body/app-root[1]/app-applicant-details[1]/div[1]/app-edit-applicant[1]/section[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[10]/button[1]                                                                                |
+    | Applicant.applicantDetailsTitle                   | //h2[contains(text(),'Applicant Details')]                                                                                                                                                                              |
+    | Applicant.Co-applicant.editIcon                   | //body/app-root[1]/app-applicant-details[1]/section[1]/div[1]/div[2]/app-applicant-type[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/img[1]                                                                               |
+    | Applicant.Co-applicant.companyPan                 | //*[@id="     "]                                                                                                                                                                                                        |
+    | Applicant.Co-applicant.businessName               | //input[@id='businessName']                                                                                                                                                                                             |
+    | Applicant.Co-applicant.email                      | //*[@id="     "]                                                                                                                                                                                                        |
+    | Applicant.Co-applicant.industry                   | //*[@id="     "]                                                                                                                                                                                                        |
+    | Applicant.Co-applicant.sub_Industry               | //*[@id="     "]                                                                                                                                                                                                        |
+    | Applicant.Co-applicant.Date_Of_Incorporation      | //body/app-root[1]/app-applicant-details[1]/div[1]/app-edit-applicant[1]/section[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[8]/p-calendar[1]/span[1]/input[1]                                                            |
+    | Applicant.Co-applicant.pin_Code                   | //*[@id="     "]                                                                                                                                                                                                        |
+    | Applicant.Co-applicant.update                     | //button[contains(text(),'Update')]                                                                                                                                                                                     |
+    | Applicant.Co-applicant.updatedDetails             | //body/app-root[1]/app-applicant-details[1]/section[1]/div[1]/div[2]/app-applicant-type[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]                                                                                    |
+20:33:07.259 [main] INFO   - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Initialize Object Repository
+----------------------------------------------------------------------
+20:33:07.259 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///D:/bdd/workspace/igcb-clo-test/src/test/resources/features/03%20No%20Offer/001_urc_registration.feature
+20:33:07.259 [main] INFO   - Test Suite Started: URC Registration
+
+@URC14
+Scenario: Display multiple pre approved offer # src/test/resources/features/03 No Offer/001_urc_registration.feature:171
+20:33:07.306 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///D:/bdd/workspace/igcb-clo-test/src/test/resources/features/03%20No%20Offer/001_urc_registration.feature
+20:33:07.306 [main] INFO   - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Display multiple pre approved offer(urc-registration;display-multiple-pre-approved-offer)
+--------------------------------------------------------------------------------
+  Given The Customer is on Offer Page
+20:33:07.306 [main] INFO   - 
+  _____   ___   ___   _____     ___   ___   _  _   ___    ___   _  _    ___ 
+ |_   _| | __| / __| |_   _|   | _ \ | __| | \| | |   \  |_ _| | \| |  / __|
+   | |   | _|  \__ \   | |     |  _/ | _|  | .` | | |) |  | |  | .` | | (_ |
+   |_|   |___| |___/   |_|     |_|   |___| |_|\_| |___/  |___| |_|\_|  \___|
+
+Display multiple pre approved offer
+-----------------------------------------------------------------------------
+20:33:09.740 [main] INFO  i.c.core.plugin.SerenityReporter - Cleanup test resources for URI file:///D:/bdd/workspace/igcb-clo-test/src/test/resources/features/01%20Self%20Registration/000%20setup.feature
+20:33:09.740 [main] INFO  i.c.core.plugin.SerenityReporter - Cleanup test resources for URI file:///D:/bdd/workspace/igcb-clo-test/src/test/resources/features/03%20No%20Offer/001_urc_registration.feature
+[ERROR] Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.45 s <<< FAILURE! - in com.intellect.igcb.autotest.CucumberTestSuite
+[ERROR] URC Registration.Display multiple pre approved offer  Time elapsed: 0.031 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'The Customer is on Offer Page' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("The Customer is on Offer Page")
+public void the_customer_is_on_offer_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   The step 'The Customer is on Offer Page' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("The Customer is on Offer Page")
+public void the_customer_is_on_offer_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+[INFO] 
+[ERROR] Tests run: 2, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- serenity-maven-plugin:3.1.15:aggregate (serenity-reports) @ igcb-clo-test ---
+[INFO] Test results for 2 tests generated in 1.6 secs in directory: file:/D:/bdd/workspace/igcb-clo-test/target/site/serenity/
+[INFO] -----------------------------------------
+[INFO]  SERENITY TESTS: PENDING
+[INFO] -----------------------------------------
+[INFO] | Tests executed         | 2
+[INFO] | Tests passed           | 1
+[INFO] | Tests failed           | 0
+[INFO] | Tests with errors      | 0
+[INFO] | Tests compromised      | 0
+[INFO] | Tests aborted          | 0
+[INFO] | Tests pending          | 1
+[INFO] | Tests ignored/skipped  | 0
+[INFO] ------------------------ | --------------
+[INFO] | Total Duration         | 531ms
+[INFO] | Fastest test took      | 531ms
+[INFO] | Slowest test took      | 531ms
+[INFO] -----------------------------------------
+[INFO] 
+[INFO] SERENITY REPORTS
+[INFO]   - Full Report: file:///D:/bdd/workspace/igcb-clo-test/target/site/serenity/index.html
+[INFO]   - Single Page HTML Summary: file:///D:/bdd/workspace/igcb-clo-test/target/site/serenity/serenity-summary.html
+[INFO]   - Full Report As React Based Single Page Application: file:///D:/bdd/workspace/igcb-clo-test/target/site/serenity/navigator/index.html
+[INFO] 
+[INFO] --- maven-failsafe-plugin:3.0.0-M5:verify (default) @ igcb-clo-test ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.168 s
+[INFO] Finished at: 2022-02-04T20:33:12+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-failsafe-plugin:3.0.0-M5:verify (default) on project igcb-clo-test: There are test failures.
+[ERROR] 
+[ERROR] Please refer to D:\bdd\workspace\igcb-clo-test\target\failsafe-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
